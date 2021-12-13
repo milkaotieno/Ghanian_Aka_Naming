@@ -1,26 +1,63 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url("../images/Traditional African Baby Naming Ceremonies.png"), url("../images/African Baby Names and Meanings _ LoveToKnow.png");
-    /* background-color: #cccccc; */
+    background-color: #cccccc; 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 10px;
+    opacity: 1.0;
+    margin: 0;
     
   }
 
-  #landing img {
-      height: 10em;
-      width: 10em;
+  nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+     font-size: 20px;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/header.jpeg")
+    /*background: rgba(0, 0, 0, 0.5);
+    box-shadow: black;
+     height: 3em; */
+
+}
+.cardname {
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    order: 1px solid #999999;
+    text-align: center;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.home {
+    margin-right: 9px;
+    margin-left: 50px; 
+}
+
+  nav img {
+      height: 4.5em;
+      width: 5em;
   } 
   span {
     color: blue;
 }
-.xcard .card {
+.xcard {
+    margin-left: 5px;
+}
+.xcard .cardname{
     /* padding: 30px; */
     border-radius: 10px;
-    /* /background-color: #D9DCDD; */
+    background-color: #D9DCDD; 
 }
 
-.card h3 {
+.cardname h3 {
    
     
     font-size: 40px;
@@ -31,8 +68,15 @@ body {
     color:blue;
     margin-right: 50px;
 }
+/* .valid {
+    border: 1px solid #999999;
+    text-align: center;
+    background-color: white;
+    padding: 1.2rem 1.5rem;
+} */
 
-.card ul li {
+
+.cardname ul li {
     font-size: 20px;
     line-height: 35px;
 }
@@ -46,6 +90,24 @@ h1 {
     font-weight: bold;
 }
 
+.define {
+    color: white;
+    text-align: center;
+}
+
+#define {
+    /* color: #e72c80; */   
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 350px;
+    color: blue;
+    
+}
+img:hover {
+    opacity: 1.6;
+  }
 
 .akan {
     text-align: center;
@@ -61,7 +123,7 @@ h1 {
     text-align: center;
     margin-right: 50px;
     padding:2px;
-    color:white;
+    color:black;
 
 }
 
@@ -74,9 +136,17 @@ h1 {
 .formain h2 {
     color: black;
     margin-top: 0em;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
        
+}
+.formain img {
+    height: 50px;
+    width: 60px;
+}
+#gender {
+    line-height: 50px;
+    display: flex;
 }
 
 
@@ -93,6 +163,33 @@ footer {
     margin-left: 20px;
     color:black;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url("../images/header.jpeg")
+}
+#footer .links1, #footer .links2 {
+    display: block;
+    width: 80%;
+    margin: 0 0 0 50px;
+    padding-left: 10px;
+    line-height: 16pt;
+    border-left: 1px solid #fff;
+    font-size: 13pt;
+}
+#footer .links2 {
+    display: inline;
+    float: left;
+    margin: 0 0 0 60px;
+    line-height: 16pt;
+}
+#footer .copyright {
+    text-align: right;
+    float: right;
+    color: #fff;
+    /* margin: 40px 0 5px 0; */
 }
 
   /* .top {

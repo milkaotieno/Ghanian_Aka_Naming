@@ -12,10 +12,10 @@
 <body>
     <nav>
         <a href = "index.html">
-            <p>Home</p>
+            <p class="home">Home</p>
         </a>
         <a href = "akan.html">
-            <p>Get Started</p>
+            <p class="home">Get Started</p>
         </a>
     </nav>
     <main>
@@ -29,10 +29,10 @@
     </header>
     <div class="xcard">
 
-        <div class="card" style="width: 18rem;">
+        <div class="cardname" >
             <h3>Male</h3>
-            <div class="cardbody" id="one">
-                <ul id="one">
+            <div class="cardbody">
+                <ul >
                     <li><b>Sunday: </b>Kwasi</li>
                     <li><b>Monday: </b>Kwadwo</li>
                     <li><b>Tuesday: </b>Kwabena</li>
@@ -45,7 +45,7 @@
         </div>
 
 
-        <div class="card" style="width: 25rem;">
+        <div class="cardname" >
             <h3>Female</h3>
             <div class="cardbody">
                 <ul>
@@ -63,7 +63,7 @@
 
     </div>
     <div class="formain">
-        <div>
+        <div class= "valid">
             <h2>Find your name</h2>
             <form id="formmm">
                 <table>
@@ -71,31 +71,37 @@
                         <th>Day</th>
                     </tr>
                     <tr>
-                        <td><input type="text" name="day" id="" placeholder="dd" size="" required></td>
+                        <td><input type="text" name="day" id="20px" placeholder="dd" size="20px" required></td>
                     </tr>
                     <tr>
                         <th>Month:</th>
                     </tr>
                     <tr>
-                        <td><input type="text" name="month" id="" placeholder="mm" size="" required></td>
+                        <td><input type="text" name="month" id="20px" placeholder="mm" size="20px" required></td>
                     </tr>
                     <tr>
                         <th>Year:</th>
                     </tr>
                     <tr>
-                        <td><input type="text" name="year" id="" placeholder="yyyy" size="" required></td>
+                        <td><input type="text" name="year" id="20px" placeholder="yyyy" size="20px" required></td>
                     </tr>
-                    <tr>
-                        <td><input type="reset" value="Reset"></td>
-                    </tr>
+                    
                 </table>
                 <b>Gender: </b>
                 <br>
-                <div id="mf">
+                <div id="gender">
                     <input type="radio" name="gender" value="name" onclick="malecompute(this.form)"><span>Male</span>
-                    <!-- <br> -->
+                    <br> 
                     <input type="radio" name="gender" value="female" onclick="femalecompute(this.form)"><span>Female</span>
                 </div>
+                <tr>
+                    <tr>
+                    
+                        <!--td><input type="submit" value="Submit" onclick="Submitcompute(this.form)></td-->  
+                    
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+                 </tr>
                 <table>
                     <tr>
                         <th>Date Of Birth:</th>
@@ -110,7 +116,7 @@
                         <th>Your Akan Name:</th>
                     </tr>
                     <tr>
-                        <th><input type="text" name="result2" size="20"></th>
+                        <th><input type="text" name="result2" size="30"></th>
                     </tr>
                 </table>
             </form>
@@ -119,7 +125,22 @@
 </section>
 <br><br>
 <footer>
-&copy Copyright 2021
+    <div class="links1">
+        <a href="/about/">About GhanianAkan.com</a> 
+        <a href="/advertise/">Advertise</a>
+        <a href="/expert/">Akan Baby Names Expert</a> 
+</div>
+<div class="links2">	
+    <a href="/about/privacy">Privacy Policy</a>
+    <a href="/about/terms">Terms of Service</a> 
+    <a href="/about/feedback">Contact Us</a>
+    <
+</div>
+<div class="copyright">
+    <div>All site content ©2021</div>
+    <div>All Rights Reserved</div>
+</div>
+<!--&copy Copyright 2021-->
 </footer> 
 </main>
     <script src="js/index.js"></script>

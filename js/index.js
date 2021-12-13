@@ -57,7 +57,7 @@ function femalecompute(form) {
     }
     var val2 = parseInt(form.month.value, 10)
     if ((val2 < 0) || (val2 > 12)) {
-        alert("Month out of range")
+        alert("Month out of range, month range is 1<=m<=12")
     }
     var val2x = parseInt(form.month.value, 10)
     var val3 = parseInt(form.year.value, 10)
