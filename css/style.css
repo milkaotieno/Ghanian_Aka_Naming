@@ -6,3 +6,8 @@ body {
     background-size: cover;
     
   }
+
+  #landing img {
+      height: 10em;
+      width: 10em;
+  } 
