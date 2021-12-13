@@ -71,11 +71,12 @@ h1 {
     margin-left: 400px;
 }
 
-.formm h2 {
+.formain h2 {
     color: black;
-    margin-top: 10em;
+    margin-top: 0em;
     font-size: xx-large;
-   
+    text-align: center;
+       
 }
 
 
