@@ -11,7 +11,7 @@ Otieno Milka A.
 + [Description](#project_description)
 + [Installation Requirement](#Project_setup_Instructions)
 + [Technology Used](#technology-used)
-+ [Bugs](#Known Bugs)
++ [Known Bugs](#known-bugs)
 + [Licence](#licence)
 
 
@@ -39,6 +39,9 @@ Otieno Milka A.
 ### Installation Process
 To install download it from the link provided, then run it locally from your computer.
 git clone https://github.com/milkaotieno/Ghanian_Aka_Naming.git
+
+## Known Bugs
+All bugs encountered were resolved
 
 ### Project live link
 ****
