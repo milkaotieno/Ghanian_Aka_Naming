@@ -46,7 +46,7 @@ All bugs encountered were resolved
 ### Project live link
 ****
 Click on the link provided bellow to view the site.
-* 
+* https://milkaotieno.github.io/Ghanian_Akan_Naming_Generator/
 
 
 ****
