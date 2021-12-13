@@ -14,6 +14,26 @@ body {
   span {
     color: blueviolet;
 }
+.xcard .card {
+    padding: 30px;
+    border-radius: 10px;
+    /* /background-color: #D9DCDD; */
+}
+
+.card h3 {
+   
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -10px;
+    color: black;
+}
+
+.card ul li {
+    font-size: 18px;
+}
+
   /* .top {
     margin-top: 20px;
 }
