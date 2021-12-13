@@ -12,7 +12,7 @@ body {
       width: 10em;
   } 
   span {
-    color: blueviolet;
+    color: blue;
 }
 .xcard .card {
     padding: 30px;
@@ -22,12 +22,14 @@ body {
 
 .card h3 {
    
-    margin-top: 10px;
-    font-size: 30px;
+    
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: -10px;
-    color: black;
+    margin-bottom: -5px;
+    margin-top: 10px;
+    color:white;
+    margin-right: 50px;
 }
 
 .card ul li {
@@ -38,7 +40,7 @@ ul li {
 }
 
 h1 {
-    color: orange;
+    color: blue;
     text-align: center;
     font-weight: bold;
 }
@@ -46,12 +48,15 @@ h1 {
 h2,
 p {
     text-align: center;
-    color: white;
+    color:black;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: larger;
 }
 .xcard {
     display: flex;
-    gap: 75px;
-    margin-left: 550px;
+    align-items: center;
+    margin-left: 400px;
 }
 
 .formm h2 {
@@ -68,6 +73,7 @@ p {
     color:blue;
     font-size: large;
     font-weight: bolder;
+    /* margin-bottom: 200px; */
 }
 
 footer {
