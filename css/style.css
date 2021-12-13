@@ -33,11 +33,6 @@ body {
 .card ul li {
     font-size: 18px;
 }
-
-  /* .top {
-    margin-top: 20px;
-}
-
 ul li {
     list-style: none;
 }
@@ -53,26 +48,38 @@ p {
     text-align: center;
     color: white;
 }
-
-.formm h2 {
-    color: black;
-}
-
 .xcard {
     display: flex;
-    gap: 50px;
+    gap: 75px;
     margin-left: 550px;
 }
 
+.formm h2 {
+    color: black;
+    margin-top: 10em;
+    font-size: xx-large;
+   
+}
+
+
 
 #formmm {
-    margin-left: 780px;
-    color: black;
+    margin-left: 550px;
+    color:blue;
+    font-size: large;
+    font-weight: bolder;
 }
 
 footer {
     margin-left: 20px;
     color: white;
+    text-align: center;
 }
+
+  /* .top {
+    margin-top: 20px;
+}
+
+
 
  */
